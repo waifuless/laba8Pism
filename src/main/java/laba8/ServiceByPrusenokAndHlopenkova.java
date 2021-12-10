@@ -1,7 +1,8 @@
+package laba8;
+
 import com.thoughtworks.xstream.XStream;
 
 import java.io.IOException;
-import java.util.Arrays;
 
 public class ServiceByPrusenokAndHlopenkova {
 

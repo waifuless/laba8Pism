@@ -1,3 +1,5 @@
+package laba8;
+
 import java.util.ArrayList;
 import java.util.Collection;
 

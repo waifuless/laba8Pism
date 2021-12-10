@@ -1,6 +1,9 @@
+package laba8;
+
 public class Main {
 
     private final static String FILE_NAME = "strings.xml";
+    private final static String INPUT_TEXT_FILE_NAME = "super.txt";
 
     private final static ServiceByPrusenokAndHlopenkova SERVICE = new ServiceByPrusenokAndHlopenkova();
 
@@ -19,7 +22,7 @@ public class Main {
             SERVICE.showCharsStatistic(mySuperArrayList);
             System.out.println("Index of elem with substring 'eno' "
                     +SERVICE.findStrIdBySubstring(mySuperArrayList, "eno"));
-            MySuperArrayList list2 = SERVICE.readFileToSuperListAndPrint("super.txt");
+            MySuperArrayList list2 = SERVICE.readFileToSuperListAndPrint(INPUT_TEXT_FILE_NAME);
             System.out.println("Second list: ");
             list2.forEach(System.out::println);
             System.out.println("compare 1 and 2 elemets: "+list2.compareInnerObjects(1, 2));
