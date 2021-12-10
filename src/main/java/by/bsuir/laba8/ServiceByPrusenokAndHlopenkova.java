@@ -1,4 +1,4 @@
-package laba8;
+package by.bsuir.laba8;
 
 import com.thoughtworks.xstream.XStream;
 

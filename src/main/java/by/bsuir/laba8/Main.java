@@ -1,9 +1,10 @@
-package laba8;
+package by.bsuir.laba8;
 
 public class Main {
 
     private final static String FILE_NAME = "strings.xml";
     private final static String INPUT_TEXT_FILE_NAME = "super.txt";
+    private final static String EXCEPTION_MCG = "Some exception occurred: ";
 
     private final static ServiceByPrusenokAndHlopenkova SERVICE = new ServiceByPrusenokAndHlopenkova();
 
@@ -33,7 +34,7 @@ public class Main {
             System.out.println("Max size = 5, added 8, removed 1. Final list: ");
             mySuperArrayList.forEach(System.out::println);
         }catch (Exception ex){
-            System.out.println("Some exception occurred: "+ex.getMessage());
+            System.out.println(EXCEPTION_MCG+ex.getMessage());
         }
     }
 }
